@@ -21,11 +21,13 @@ import java.util.concurrent.TimeUnit;
 @Component
 @Slf4j
 public class HeartbeatHandler extends ChannelInboundHandlerAdapter {
-    private final NettyClient nettyClient;
+//    private final NettyClient nettyClient;
+//    @Autowired
+//    public HeartbeatHandler(NettyClient nettyClient) {
+//        this.nettyClient = nettyClient;
+//    }
     @Autowired
-    public HeartbeatHandler(NettyClient nettyClient) {
-        this.nettyClient = nettyClient;
-    }
+    private NettyClient nettyClient;
 
     @Override
     public void userEventTriggered(ChannelHandlerContext ctx, Object evt) throws Exception {
