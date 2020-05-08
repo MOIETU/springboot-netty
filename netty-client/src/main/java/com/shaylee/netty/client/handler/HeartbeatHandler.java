@@ -22,11 +22,7 @@ import java.util.concurrent.TimeUnit;
 @Component
 @Slf4j
 public class HeartbeatHandler extends ChannelInboundHandlerAdapter {
-    //    private final NettyClient nettyClient;
-//    @Autowired
-//    public HeartbeatHandler(NettyClient nettyClient) {
-//        this.nettyClient = nettyClient;
-//    }
+
     @Autowired
     private NettyClient nettyClient;
 

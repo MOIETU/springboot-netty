@@ -1,6 +1,5 @@
 package com.shaylee.netty.client.config;
 
-import com.shaylee.netty.client.config.ClientHandlerInitilizer;
 import com.shaylee.netty.common.protocol.protobuf.MessageBase;
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.ChannelFuture;
