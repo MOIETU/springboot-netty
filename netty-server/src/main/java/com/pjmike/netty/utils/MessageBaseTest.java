@@ -13,6 +13,6 @@ public class MessageBaseTest {
         MessageBase.Message message = MessageBase.Message.newBuilder()
                 .setRequestId(UUID.randomUUID().toString())
                 .setContent("hello world").build();
-        System.out.println("message: "+message.toString());
+        System.out.println("message: " + message.toString());
     }
 }

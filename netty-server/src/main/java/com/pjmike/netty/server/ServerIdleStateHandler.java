@@ -19,6 +19,7 @@ public class ServerIdleStateHandler extends IdleStateHandler {
      * 设置空闲检测时间为 30s
      */
     private static final int READER_IDLE_TIME = 30;
+
     public ServerIdleStateHandler() {
         super(READER_IDLE_TIME, 0, 0, TimeUnit.SECONDS);
     }

@@ -33,6 +33,7 @@ public class NettyServer {
     private EventLoopGroup work = new NioEventLoopGroup();
     @Value("${netty.port}")
     private Integer port;
+
     /**
      * 启动Netty Server
      *

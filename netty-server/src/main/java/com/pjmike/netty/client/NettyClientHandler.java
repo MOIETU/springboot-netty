@@ -21,7 +21,7 @@ public class NettyClientHandler extends SimpleChannelInboundHandler<MessageBase.
      */
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, MessageBase.Message msg) throws Exception {
-        log.info("客户端收到消息：{}",msg.toString());
+        log.info("客户端收到消息：{}", msg.toString());
     }
 
     /**

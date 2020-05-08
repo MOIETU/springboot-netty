@@ -22,7 +22,7 @@ import java.util.concurrent.TimeUnit;
  */
 @Component
 @Slf4j
-public class NettyClient  {
+public class NettyClient {
     private EventLoopGroup group = new NioEventLoopGroup();
     @Value("${netty.port}")
     private int port;
@@ -35,7 +35,7 @@ public class NettyClient  {
     }
 
     @PostConstruct
-    public void start()  {
+    public void start() {
         Bootstrap bootstrap = new Bootstrap();
         bootstrap.group(group)
                 .channel(NioSocketChannel.class)

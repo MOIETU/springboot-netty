@@ -21,7 +21,7 @@ import java.util.concurrent.TimeUnit;
 @Component
 @Slf4j
 public class HeartbeatHandler extends ChannelInboundHandlerAdapter {
-//    private final NettyClient nettyClient;
+    //    private final NettyClient nettyClient;
 //    @Autowired
 //    public HeartbeatHandler(NettyClient nettyClient) {
 //        this.nettyClient = nettyClient;
@@ -57,7 +57,7 @@ public class HeartbeatHandler extends ChannelInboundHandlerAdapter {
 
     @Override
     public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) throws Exception {
-        log.error("捕获的异常：{}",cause.getMessage());
+        log.error("捕获的异常：{}", cause.getMessage());
         ctx.channel().close();
     }
 }
