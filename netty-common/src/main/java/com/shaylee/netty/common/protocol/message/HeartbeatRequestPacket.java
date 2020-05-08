@@ -1,6 +1,7 @@
 package com.shaylee.netty.common.protocol.message;
 
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 import static com.shaylee.netty.common.protocol.message.command.Command.HEARTBEAT_REQUEST;
 
@@ -9,6 +10,7 @@ import static com.shaylee.netty.common.protocol.message.command.Command.HEARTBEA
  * @create 2018-10-25 16:12
  */
 @Data
+@EqualsAndHashCode(callSuper = false)
 public class HeartbeatRequestPacket extends Packet {
 
     @Override
