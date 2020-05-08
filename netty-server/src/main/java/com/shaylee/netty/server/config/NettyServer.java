@@ -1,6 +1,5 @@
-package com.pjmike.netty.server.config;
+package com.shaylee.netty.server.config;
 
-import com.pjmike.netty.server.config.NettyServerHandlerInitializer;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelOption;

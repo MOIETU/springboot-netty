@@ -1,4 +1,4 @@
-package com.pjmike.netty.server.handler;
+package com.shaylee.netty.server.handler;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.timeout.IdleStateEvent;

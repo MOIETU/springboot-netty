@@ -1,4 +1,4 @@
-package com.pjmike.netty.server.handler;
+package com.shaylee.netty.server.handler;
 
 import com.shaylee.netty.common.protocol.message.HeartbeatResponsePacket;
 import com.shaylee.netty.common.protocol.protobuf.MessageBase;

@@ -1,4 +1,4 @@
-package com.pjmike.netty.server;
+package com.shaylee.netty.server;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

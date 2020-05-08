@@ -1,7 +1,7 @@
-package com.pjmike.netty.server.config;
+package com.shaylee.netty.server.config;
 
-import com.pjmike.netty.server.handler.NettyServerHandler;
-import com.pjmike.netty.server.handler.ServerIdleStateHandler;
+import com.shaylee.netty.server.handler.NettyServerHandler;
+import com.shaylee.netty.server.handler.ServerIdleStateHandler;
 import com.shaylee.netty.common.protocol.protobuf.MessageBase;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelInitializer;
